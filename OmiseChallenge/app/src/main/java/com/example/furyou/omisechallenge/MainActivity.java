@@ -17,14 +17,9 @@ import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
     // HERE YOU NEED TO PUT THE URL OF YOUR SERVER
-    //static final String URL = "http://"+ "PUT_YOUR_IP_ADDRESS_HERE" + ":3000";
+    static final String URL = "http://"+ "PUT_YOUR_IP_ADDRESS_HERE" + ":3000";
     // HERE YOU NEED TO PUT YOUR OMISE PUBLIC KEY
-    //static final String OMISE_PKEY = "PUT_YOUR_PKEY_TEST_HERE";
-
-    // HERE YOU NEED TO PUT THE URL OF YOUR SERVER
-    static final String URL = "http://"+ "10.18.201.85" + ":3000";
-    // HERE YOU NEED TO PUT YOUR OMISE PUBLIC KEY
-    static final String OMISE_PKEY = "pkey_test_5db6cap0sx096f0u7qg";
+    static final String OMISE_PKEY = "PUT_YOUR_PKEY_TEST_HERE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
