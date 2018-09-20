@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransactionStatusActivity">
+
+    <TextView
+        android:id="@+id/transaction_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/omiseBlue"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        android:text="@string/status"
+        />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_below="@id/transaction_status"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:background="@color/omiseBlue"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+
+        android:text="@string/back"
+        android:onClick="go_to_main_screen"/>
+
+</RelativeLayout>

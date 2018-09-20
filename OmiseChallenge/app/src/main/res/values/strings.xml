@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OmiseChallenge</string>
+    <string name="donate">Donate to:</string>
+    <string name="charity_donation_name">Charity donation_name</string>
+    <string name="add_cb_infos">+ Add credit card infos</string>
+    <string name="amount">AMOUNT (฿) in Satang:</string>
+    <string name="submit_donation">submit donation</string>
+    <string name="select_charity">Please select a charity</string>
+    <string name="omise_challenge">OMISE CHALLENGE</string>
+    <string name="go_to_charity_list">Go To Charity List Screen</string>
+    <string name="status">Status</string>
+    <string name="back">Back to main menu</string>
+    <string name="IP_ERROR_MSG">No charity to display, please check that you are connected to internet on the same network as the Node JS server and that you configured the server (in index.js) and the application (in MainActivity) with the same IP address</string>
+    <string name="IP_ERROR_TITLE">No charity to display</string>
+    <string name="OK">OK</string>
+    <string name="CONNECTIVITY_ERROR_MSG">Please check that you are connected to the internet and on the same network as the Node JS server</string>
+    <string name="CONNECTIVITY_ERROR_TITLE">Connectivity error</string>
+    <string name="LOADING_CHARITIES">Loading charities from the server, please wait</string>
+    <string name="TRANSACTION_ON_GOING">Transaction on going, please wait</string>
+    <string name="ERROR">ERROR</string>
+
+</resources>

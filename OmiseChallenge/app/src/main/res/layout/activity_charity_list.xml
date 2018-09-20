@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharityListActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/select_charity_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/omiseBlue"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="@string/select_charity"/>
+
+    <ListView
+        android:id="@+id/charity_list_view"
+        android:layout_below="@id/select_charity_label"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</RelativeLayout>
